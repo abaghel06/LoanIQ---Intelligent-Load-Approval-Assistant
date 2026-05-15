@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(bash *)",
+      "Bash(pkill -f \"uvicorn api.main\")",
+      "Bash(pkill -f \"streamlit run\")",
+      "Bash(uvicorn api.main:app *)",
+      "Bash(curl *)",
+      "Bash(streamlit run *)"
+    ]
+  }
+}

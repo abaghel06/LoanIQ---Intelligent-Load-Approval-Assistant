@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "LOAN-5546E158",
+    "applicant_id": "TEST-001",
+    "logged_at": "2026-05-13T16:09:44.412608Z",
+    "decision": {
+      "classification": "Approve",
+      "risk_score": 40.0,
+      "confidence_level": "Low",
+      "key_factors": [
+        "Perfect income stability score (100.0) with salaried employment and low employment risk",
+        "Good credit profile with a score of 720 (Grade B), indicating acceptable risk",
+        "Low loan amount risk \u2014 loan is 2x annual income, a manageable loan-to-income ratio",
+        "Elevated DTI ratio of 53.33%, meaning over half of monthly income is consumed by debt obligations",
+        "No anomalies detected and application data is fully complete"
+      ],
+      "explanation": "The applicant qualifies for approval driven by strong income stability, low employment risk, a solid credit score of 720, and a manageable loan-to-income ratio with no anomalies flagged. However, the notably elevated DTI ratio of 53.33% introduces moderate repayment stress, which tempers confidence in the decision. Lenders should consider imposing prudent conditions \u2014 such as verifying liability details or capping discretionary credit \u2014 to mitigate the DTI-related risk before disbursement."
+    }
+  },
+  {
+    "case_id": "LOAN-15AA0C60",
+    "applicant_id": "TEST-001",
+    "logged_at": "2026-05-13T16:12:44.106230Z",
+    "decision": {
+      "classification": "Approve",
+      "risk_score": 40.0,
+      "confidence_level": "Low",
+      "key_factors": [
+        "Perfect income stability score (100.0) with low employment risk as a salaried professional",
+        "Good credit score of 720 (Grade B) with no adverse credit history flags",
+        "Elevated DTI ratio of 53.33%, exceeding the standard 43% threshold due to existing liabilities",
+        "Manageable loan-to-income ratio with loan amount at 2x annual income",
+        "Clean application \u2014 no anomalies detected and all fields complete"
+      ],
+      "explanation": "The applicant qualifies for approval driven by strong income stability, low employment risk, and a clean application with no anomalies or missing data. However, the elevated DTI ratio of 53.33% \u2014 above the conventional 43% safe threshold \u2014 introduces moderate repayment risk, which is reflected in the Low confidence level. Approval is recommended but lenders should consider imposing conditions such as a reduced loan amount, shorter tenure, or requiring the applicant to reduce existing liabilities before disbursement."
+    }
+  }
+]
